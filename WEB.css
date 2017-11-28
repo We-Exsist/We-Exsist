@@ -47,6 +47,8 @@ ul {
 }
 #NavBar{
     position:fixed;
+    float: right;
+    object-position: right
 }
 li {
     float: left;
@@ -60,7 +62,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 15px;
     text-decoration: none;
 }
 
