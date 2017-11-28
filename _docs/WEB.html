@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link type="text/css"  rel="stylesheet" href="WEB/WEB.css"/>
+        <link rel="dns-prefetch" href="https://fonts.googleapis.com/css?family=Algerian">
+        <link rel="dns-prefetch" href="//s.w.org">
+    </head>
+    <body onmousemove="mouseLocation()">
+        <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+        <ul id='NavBar'>
+            <li class='active'><a href='#'>Home Page</a></li>
+            <li><a href='WEB/Videos.html'>Videos</a></li>
+            <li><a href="WEB/about.html">Character Files</a></li>
+            <li><a href="WEB/Chatter.html">Chatter</a></li>
+        </ul>
+        <div id='style'>
+            <p id="txt">Your mouse pointer's X coordinate is <strong id="txt a"></strong>
+                and Y coordinate is <strong id='txt b'></strong>
+            <noscript>This message will only show if you do not have javascript... GET SOME JAVASCRIPT! Please, thanks.</noscript>
+            <script>
+                var Variable = confirm('Would you like to continue?');
+                while (Variable === false){}
+            </script>
+            </p>
+        </div>
+         <script>
+                function mouseLocation(){
+                    var x = event.clientX;
+                    var y = event.clientY;
+                    document.getElementById("txt a").innerHTML = x
+                    document.getElementById('txt b').innerHTML = y
+                }
+            </script>
+        <iframe src="https://discordapp.com/widget?id=368064183037853696&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+    </body>
+</html>
