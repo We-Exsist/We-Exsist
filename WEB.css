@@ -47,8 +47,7 @@ ul {
 }
 #NavBar{
     position:fixed;
-    float: right;
-    object-position: right
+    object-position: top;
 }
 li {
     float: left;
