@@ -1,0 +1,91 @@
+body {
+    background-color: chocolate;
+    cursor:cell;
+}
+p {
+    text-align: center;
+}
+#style{
+    background-color:coral;
+    margin: 100;
+    padding: 5;
+    box-shadow: true;
+}
+#static{
+    padding: 300;
+    margin-left:275;
+    width:13em;
+    cursor:not-allowed;
+    background-color: bisque;
+}
+#static:hover{
+    box-shadow: 0 12px 16px 0 rgba(20,5,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-image: url(Monitor_static.gif);
+}
+#static:active{
+    background-color: aqua
+}
+iframe{
+     transition: width 2s, height 4s;
+    display:block;
+    frameborder="0";
+    allowfullscreen;
+}
+iframe:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.5s;
+    width: 560px;
+    height: 315px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: algerian, cursive, serif;
+}
+#NavBar{
+    
+}
+li {
+    float: left;
+}
+
+h1 {
+    font-family: algerian, cursive, serif;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+.ServerMinigames {
+    background-color: darksalmon;
+}
+.Maps {
+    background-color: darkkhaki
+}
+.Hardcore {
+    background-color: darkred;
+}
+.Tutorials {
+    background-color: aquamarine;
+}
+.other {
+    background-color: fuchsia;
+}
+.web {
+    font-family: fantasy;
+}
