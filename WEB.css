@@ -46,8 +46,7 @@ ul {
     font-family: algerian, cursive, serif;
 }
 #NavBar{
-    position:fixed;
-    object-position: top;
+    position:static;
 }
 li {
     float: left;
