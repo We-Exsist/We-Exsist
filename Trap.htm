@@ -3,10 +3,9 @@
     <title>You are trapped here.</title>
     <style src="WEB.css"></style>
 </head>
-<body onfocusout="alert('You are trapped!')">
-    <noscript>
-        <h1>This would have trapped you here.</h1>
-    </noscript>
-    <p>If you are trapped here, disable javascript.</p>
+<body onfocusout="alert('You are trapped!');">
+    <script>
+        html.onfocus = function(){alert("Wheee!");};
+    </script>
 </body>
 </html>
